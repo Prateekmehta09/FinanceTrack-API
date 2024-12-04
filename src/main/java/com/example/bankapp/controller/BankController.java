@@ -66,6 +66,7 @@ public class BankController {
     {
         String username=SecurityContextHolder.getContext().getAuthentication().getName();
 //        Account account=accountService.findAccountByUsername(username);
+//        Account account=accountService.findAccountByUsername(username);
         Account account=accountService.findAccountByUsername(username);
 
         try{
